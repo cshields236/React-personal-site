@@ -1,7 +1,9 @@
 import React from 'react'
 import { Container, Row } from 'react-bootstrap';
 
-import github from '../assets/images/github.png'
+import github from '../assets/images/octocat.jpg'
+import book from '../assets/images/book.jpeg'
+import driver from '../assets/images/driver.jpeg'
 import Card from './Card'
 
 class Carousel extends React.Component {
@@ -11,19 +13,19 @@ class Carousel extends React.Component {
             items: [
                 {
                     id:0,
-                    title: 'GitHub',
-                    subtitle: 'My Projects on Github', 
-                    imgsrc :github, 
+                    title: 'Book Selector',
+                    subtitle: 'App that randomly selects your next book.', 
+                    imgsrc :book, 
                     link: 'https://github.com/cshields236',
                     selected: false
 
                 },
                 {
                     id:1,
-                    title: 'LinkedIn',
-                    subtitle: 'My LinkedIn Profile', 
+                    title: 'GitHub',
+                    subtitle: 'My GitHub Profile', 
                     imgsrc :github, 
-                    link: 'https://www.linkedin.com/in/conor-shields-369aa7166/',
+                    link: 'https://github.com/cshields236',
                     selected: false
 
                 },
@@ -31,7 +33,7 @@ class Carousel extends React.Component {
                     id:2,
                     title: 'Drive Safe Application',
                     subtitle: 'App to warn drivers when showing fatigue.', 
-                    imgsrc :github, 
+                    imgsrc :driver, 
                     link: 'https://github.com/cshields236',
                     selected: false
 

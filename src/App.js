@@ -25,7 +25,7 @@ class App extends React.Component {
       ],
       home: {
         title: 'Conor Shields',
-        subTitle: 'Projects of Mine',
+        subtitle: 'Projects of Mine',
         text: 'Have a look at my projects'
       },
       about: {
@@ -57,10 +57,10 @@ class App extends React.Component {
           <Route path='/' exact render={() =>
             <HomePage
               title={this.state.home.title}
-              subTitle={this.state.home.subtitle}
+              subtitle={this.state.home.subtitle}
               text={this.state.home.text} />} />
 
-          <Route path='/about'  render={() =>
+          <Route path='/about' exact render={() =>
             <AboutPage
               title={this.state.about.title}
               />} />

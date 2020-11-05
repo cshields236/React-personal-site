@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row } from 'react-bootstrap';
 
-import github  from '../assets/images/github.png'
+import github from '../assets/images/github.png'
 import Card from './Card'
 
 class Carousel extends React.Component {
@@ -11,7 +11,7 @@ class Carousel extends React.Component {
             items: [
                 {
                     id:0,
-                    title: 'Github',
+                    title: 'GitHub',
                     subtitle: 'My Projects on Github', 
                     imgsrc :github, 
                     link: 'https://github.com/cshields236',

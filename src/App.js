@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import { Container, Navbar } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav'
 
+import Footer from '../src/components/Footer'
+
 class App extends React.Component {
 
   constructor(props) {
@@ -37,7 +39,7 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom" bg='transparent' expand='lg'>
             <Navbar.Brand>Conor Shields</Navbar.Brand>
-            <Navbar.Toggle aria-controls="navbar-toggle" />
+            <Navbar.Toggle className='border-0' aria-controls="navbar-toggle" />
             <Navbar.Collapse id='nav-toggle'>
               <Nav className='ml-auto'>
                 <Link className='nav-link' to=''>Home</Link>
@@ -46,6 +48,8 @@ class App extends React.Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
+
+          <Footer />
         </Container>
       </Router>
     )

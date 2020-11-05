@@ -47,9 +47,9 @@ class App extends React.Component {
             <Navbar.Toggle className='border-0' aria-controls="navbar-toggle" />
             <Navbar.Collapse id='nav-toggle'>
               <Nav className='ml-auto'>
-                <Link className='nav-link' to=''>Home</Link>
-                <Link className='nav-link' to=''>About</Link>
-                <Link className='nav-link' to=''>Contact</Link>
+                <Link className='nav-link' to='/'>Home</Link>
+                <Link className='nav-link' to='/about'>About</Link>
+                <Link className='nav-link' to='/contact'>Contact</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
@@ -60,13 +60,13 @@ class App extends React.Component {
               subTitle={this.state.home.subtitle}
               text={this.state.home.text} />} />
 
-          <Route path='/' exact render={() =>
+          <Route path='/about'  render={() =>
             <AboutPage
               title={this.state.about.title}
               />} />
 
 
-          <Route path='/' exact render={() =>
+          <Route path='/contact'  render={() =>
             <ContactPage
               title={this.state.contact.title}
              />} />

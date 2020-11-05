@@ -30,7 +30,7 @@ class Carousel extends React.Component {
                 {
                     id:2,
                     title: 'Drive Safe Application',
-                    subtitle: 'Final Year Project for University, application to monitor and analyse drivers face and warn driver when showing signs of fatigue.', 
+                    subtitle: 'App to warn drivers when showing fatigue.', 
                     imgsrc :github, 
                     link: 'https://github.com/cshields236',
                     selected: false
@@ -57,7 +57,7 @@ class Carousel extends React.Component {
 
     makeItems = (items) => {
         return items.map(item => {
-            return <Card item={item} onClick={(e => this.handleCardClick(item.id, e))} key={item.id}/>
+            return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id}/>
         })
     }
 

@@ -81,10 +81,10 @@ class ContactPage extends React.Component {
                             <Form.Label htmlFor='message'>Message</Form.Label>
                             <Form.Control id='message' name='message' as='textarea' rows='3' value={this.state.message} onChange={this.handleChange} />
                         </Form.Group>
-
                         <Button className='d-inline-block' variant='primary' type='submit' disabled={this.state.disabled} variant="primary" size="lg" block>
                             Send
                         </Button>
+
 
                         {this.state.emailSent === true && <p className='d-inline success-msg'>Email Sent!</p>}
                         {this.state.emailSent === false && <p className='d-inline err-msg'>Email Not Sent!</p>}

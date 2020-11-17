@@ -16,7 +16,7 @@ class Carousel extends React.Component {
                     title: 'Book Selector',
                     subtitle: 'App that randomly selects your next book.', 
                     imgsrc :book, 
-                    link: 'https://github.com/cshields236',
+                    link: 'https://github.com/cshields236/Book-Selector',
                     selected: false
 
                 },
@@ -34,7 +34,7 @@ class Carousel extends React.Component {
                     title: 'Drive Safe Application',
                     subtitle: 'App to warn drivers when showing fatigue.', 
                     imgsrc :driver, 
-                    link: 'https://github.com/cshields236',
+                    link: 'https://github.com/cshields236/FYP',
                     selected: false
 
                 }

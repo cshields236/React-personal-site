@@ -44,8 +44,8 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <Container className="p-0" fluid={true}>
-          <Navbar expand='lg' varient='dark' style={{ backgroundColor: 'bisque', borderBottom: '2px solid #000000', fontSize: '30px', letterSpacing: '1.5px' }}>
+        <Container className="p-0" fluid={true} style={{color: '#236084'}}>
+          <Navbar expand='lg'  style={{ backgroundColor: '#D7CEC7', borderBottom: '2px solid #000000', fontSize: '30px', letterSpacing: '1.5px'}}>
             <Link to ='/' >
                <img src={logo} className="photo" />
             </Link>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row } from 'react-bootstrap';
 
-import github from '../assets/images/octocat.jpg'
+import burger from '../assets/images/burger.jpg'
 import book from '../assets/images/book.jpeg'
 import driver from '../assets/images/driver.jpeg'
 import Card from './Card'
@@ -22,10 +22,10 @@ class Carousel extends React.Component {
                 },
                 {
                     id:1,
-                    title: 'GitHub',
-                    subtitle: 'My GitHub Profile', 
-                    imgsrc :github, 
-                    link: 'https://github.com/cshields236',
+                    title: 'Burger Builder Application',
+                    subtitle: 'Online burger builder & ordering application', 
+                    imgsrc :burger, 
+                    link: 'https://github.com/cshields236/burger-builder',
                     selected: false
 
                 },
@@ -65,7 +65,7 @@ class Carousel extends React.Component {
 
     render(){
         return (
-           <Container fluid={true}>
+           <Container fluid={true} >
                <Row className='justify-content-around'>
                     {this.makeItems(this.state.items)}
                </Row>

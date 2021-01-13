@@ -50,3 +50,9 @@ code {
   color: #EE6352;
   padding:10px 15px;
 }
+
+.photo{
+  height: 80px;
+  width: 80px;
+  margin-left: 50px;
+}

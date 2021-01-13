@@ -3,7 +3,7 @@ import { Jumbotron, Container, Row, Col } from 'react-bootstrap';
 
 function Hero(props) {
     return (
-        <Jumbotron className='bg-transparent jumbotron-fluid' >
+        <Jumbotron  style={{'backgroundColor': 'bisque'}} >
             <Container fluid={true}>
                 <Row className='justify-content-center py-5'>
                     <Col md={8} sm={12}>

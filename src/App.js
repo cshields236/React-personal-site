@@ -44,7 +44,7 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-          <Navbar className="border-bottom"  expand='lg'  varient='dark' style={{ backgroundColor:'#faebd7' }}>
+          <Navbar  expand='lg'  varient='dark' style={{ backgroundColor:'bisque', borderBottom: '2px solid #000000' }}>
             <Navbar.Brand>Conor Shields</Navbar.Brand>
             <Navbar.Toggle className='border-0' aria-controls="navbar-toggle" />
             <Navbar.Collapse id='nav-toggle'>
